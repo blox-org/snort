@@ -1,0 +1,1 @@
+-I /opt/home/ac494sdk/buildroot/securewall/daq-2.0.0/sfbpf/ -I /opt/home/ac494sdk/buildroot/securewall/zlib-1.2.3/ -I/opt/home/ac494sdk/buildroot/securewall/libpcap-1.4.0/ -Wall

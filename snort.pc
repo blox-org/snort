@@ -1,0 +1,17 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+bindir=${exec_prefix}/bin
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+datarootdir=${prefix}/share
+datadir=${datarootdir}
+mandir=${datarootdir}/info
+infodir=${datarootdir}/info
+
+Name: Snort
+Description: Snort dynamic plugins/detection/rules
+URL: www.snort.org
+Version: 2.9.5
+Libs: -L${libdir} -lcurl -L/opt/home/ac494sdk/buildroot/securewall/zlib-1.2.3/ -L/tmp/srootfs/usr/local/lib -L/tmp/srootfs/usr/lib  -L/tmp/srootfs/usr/local/lib -L/tmp/srootfs/usr/lib -L/tmp/srootfs/usr/lib -lz -ldaq_static -ldnet -lpcre -lpcap -lnsl -lm -lm  -ldl -L/usr/lib -ldaq_static_modules  -lsfbpf -lz -lpthread -lpthread -lpthread -lpthread
+Cflags: -I /opt/home/ac494sdk/buildroot/securewall/daq-2.0.0/sfbpf/ -I /opt/home/ac494sdk/buildroot/securewall/zlib-1.2.3/ -I/opt/home/ac494sdk/buildroot/securewall/libpcap-1.4.0/ -Wall -I/opt/home/ac494sdk/buildroot/securewall/libpcap-1.4.0/ -I/opt/home/ac494sdk/buildroot/securewall/pcre-8.12 -I/opt/home/ac494sdk/buildroot/securewall/libdnet-1.12/include/ -I/opt/home/ac494sdk/buildroot/securewall/daq-2.0.0/api/ -DZLIB -DGRE -DMPLS -DINLINE_FAILOPEN -DNOCOREFILE -DENABLE_REACT -DENABLE_RESPOND -DENABLE_RESPONSE3 -DSF_WCHAR -DTARGET_BASED -DSNORT_RELOAD -DNO_NON_ETHER_DECODER -DNORMALIZER -DACTIVE_RESPONSE
+
